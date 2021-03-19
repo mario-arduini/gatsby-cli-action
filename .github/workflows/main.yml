@@ -1,0 +1,9 @@
+on: [workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: test itself
+    steps:
+    - name: build gatsby in this repo
+      uses: mario-arduini/gatsby-cli-action@v1
