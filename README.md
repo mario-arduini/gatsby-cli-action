@@ -8,7 +8,7 @@ Strongly based on this [action](https://github.com/jzweifel/gatsby-cli-github-ac
 
 Command to run with the gatsby cli. Default `build`.
 
-## `project-path`
+### `project-path`
 
 Relative path to directory from which run the gatsby cli. Default `.` .
 
