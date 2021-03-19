@@ -7,3 +7,5 @@ jobs:
     steps:
     - name: build gatsby in this repo
       uses: mario-arduini/gatsby-cli-action@v1
+      with:
+        gatsby-arg: -v
