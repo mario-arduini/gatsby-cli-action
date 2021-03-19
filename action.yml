@@ -9,7 +9,7 @@ inputs:
   project-path:
     description: 'relative path in which execute the gatsby command'
     required: true
-    default: './'
+    default: '.'
 runs:
   using: 'docker'
   image: 'Dockerfile'
